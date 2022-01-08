@@ -1,0 +1,413 @@
+# sketchWebtoon
+FINAL - seperaete action to big rectangle , dialog to balloon , with just typing text in goole docs
+*********************************************************
+1. Action to big rectangle
+- exampel: - differnt ballong rectnagle text wrap ORIGINOAL-- https://jsfiddle.net/IPWright83/22ahj15o/ 
+- hlaf ide to  code text ( https://jsfiddle.net/mangadrawing123/206aLnqt/12/)
+- one rectangle fit down? https://jsfiddle.net/mangadrawing123/quxkba4m/7/
+- rectangle webtoon display differnet  -- https://jsfiddle.net/mangadrawing123/quxkba4m/
+- excel sheet : reocgnized with text normla no Tab and put it in rectangle -- Table of word excel. When match full will be full 500px nad full width 600px?! then one/half left/right , will be 500/2 left or right align.. - https://docs.google.com/spreadsheets/d/18XXwl7pvd_IAcngbnrEhWIbzsLs4XLExRaX2nT3klOU/edit#gid=0
+- example : wrap text insdie circle text wrap - https://codepen.io/thdoan/pen/rOPYxE
+- auto calculate the width and height and x+y position of of the circle depend how mnay character in a sentence.
+- example: circle wrapping insidse - fit text with hypen nad tag p and div -ORIINAL https://codepen.io/tylersticka/pen/VwwLaBN  -MINE : https://codepen.io/mangadrawing123/pen/WNOzZoL
+-  fit text to rectangle first! - https://jsfiddle.net/mangadrawing123/quxkba4m/
+-  example: text jsfidle heello world on canvas: https://codepen.io/SitePoint/pen/jItkJ
+- write a div p circle rect website that look like a webtoon. then do the reverse add all those div (totoa with all the height y of balloon) with bottom border: 30px so it will extract the next panel/scnee. -- https://codepen.io/mangadrawing123/pen/wvempoJ?editors=1100
+- - problem : div balloon is not on top, and rectangle and move to position - z-index exmaple ORINGLA: https://codepen.io/ersonusaini/pen/YqQZXb  -  MINE: https://codepen.io/mangadrawing123/pen/wvempoJ?editors=1100
+- how to use jqueryui? https://jqueryui.com/dialog/
+- allow users to draw circle and rectangle! - stackvoerflwo dragglbe resizeabl, dialog: https://stackoverflow.com/questions/39193276/how-can-i-merge-two-shapes-in-svg
+- exmpale codepen ballon speech bubble: https://codepen.io/timohausmann/pen/poywXzg
+- exmaple codpne actual comic reize: https://codepen.io/gwenananaelle/pen/OJRWZVm
+- 2 balloon join? not complete: MINE lightblue***  https://codepen.io/mangadrawing123/pen/wvempoJ?editors=1100 - stackvoverlfow: https://stackoverflow.com/questions/39193276/how-can-i-merge-two-shapes-in-svg
+- gogole docs typing in number : https://docs.google.com/document/d/1NsLrFeRPkhft5h3YAJd50pv8WfViOi7Oho2Of6m9qx8/edit
+- example gird side by side EXMAPLE: https://codepen.io/manabox/pen/PREdQQ?editors=1100
+- repalce one tab \t to div ballong and div text inside for css human so insdie rect so that the text can be reapcle. MINE: https://codepen.io/mangadrawing123/pen/rNwvmKa - insertBefore() example : https://stackoverflow.com/questions/4793604/how-to-insert-an-element-after-another-element-in-javascript-without-using-a-lib -- regex exmaple repalce ^ beginnign and $end didn't wokr https://stackoverflow.com/questions/50370641/append-string-to-start-and-end-of-line-regex-notepad -- sort through array,if teh strSent startwith \t\t put that array between <div ballong or text> </div> - kinda workd MINE: https://codepen.io/mangadrawing123/pen/rNwvmKa?editors=0110
+- replace two tab \t\t to div css person or so character inside rectangle masking. and add /div at the end - MINE https://codepen.io/mangadrawing123/pen/rNwvmKa?editors=0100
+- replace all line start with two enter with div rect and also add /div at the end as well.
+- multiple  balloons text padding fit width and heigth calculate - inserte aatrribute width for differnet balloon: https://stackoverflow.com/questions/1480588/input-size-vs-width - success add width style for differnet balllon: https://codepen.io/mangadrawing123/pen/MWoGLMW?editors=0010
+- rectangle in div rectangle, container is container, balloon is psoition relative to person <div> - succes: https://codepen.io/mangadrawing123/pen/rNwvmKa?editors=0110
+- cowboy example comic : https://codepen.io/gwenananaelle/pen/OJRWZVm?editors=1100
+- align bototm and corner for character and balloon relative to retangle. - position abosolute , relative - real MANUALLY HTML only webtoon : https://codepen.io/mangadrawing123/pen/wvejLOv?editors=0110
+- have charcter and action iwth the balloon on top of hte ballong relative abosolute top -5px or so: https://codepen.io/mangadrawing123/pen/wvejLOv?editors=1100
+- in order like word docs if rect come first hten rect come higher than character ballloong - balllon and character on top of balloon inside the rectangle?- warp text aroudn css? possible - https://codepen.io/mangadrawing123/pen/jOwKEOM?editors=1000
+- angle balloon? multiple balloon no need rigth only left . right is default:- also sepearte thet rectangle to be ontop to be read.
+- texttohtml learn how to : sample suck: https://www.textfixer.com/html/convert-text-html.php 
+- break it normally line first! break text no need right or left float. done MINE: https://codepen.io/mangadrawing123/pen/LYLrxKr?editors=0010- why it doesn't work?
+- rectangle inside word javscrip break mine : https://codepen.io/mangadrawing123/pen/zYzamQx?editors=0010 
+- good exmpale staircase text: https://codepen.io/joeaugie/pen/moAez , another good case of stair text: https://codepen.io/SourabhPati/pen/rbpjLj - nth child for the rectangle as well?!
+- nth odd even child ORINGLA: https://codepen.io/mornir0/pen/wENord - MINE TRIAAL mannually https://codepen.io/mangadrawing123/pen/YzQvRjv?editors=1100 - TRIAL CODPEN : https://codepen.io/mangadrawing123/pen/oNwyBqE?editors=1100
+- success javascript: https://codepen.io/mangadrawing123/pen/zYzamQx?editors=1000
+- ask stakcoverflow how to add differnet close tag for differnet line 3 types none , 2 tabs, and one tab : stackoverflwo: two textarea side by side: https://stackoverflow.com/questions/27833951/how-to-create-side-by-side-textareas - word to html: https://htmled.it/ - trial mine codepen: https://codepen.io/mangadrawing123/pen/zYzamQx?editors=0010 - codepne for stackoveflow: https://codepen.io/pen/?editors=1100
+- chracter div and spance for charcter and not add div to balloon.
+- no need rectangle div, just container , then no need character div jsut ballon idv.  mannually: https://codepen.io/mangadrawing123/pen/YzQvRjv?editors=1100 , then javascript: https://codepen.io/mangadrawing123/pen/NWgzVYY?editors=1100 - 
+- nth child left right?  - now you can do whisher on the charcter (whiseper) - nth child only work for 2 dialog! -> https://codepen.io/mangadrawing123/pen/yLXqLYd?editors=0100
+- freecodecamp flexbox: https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/ 
+- watch build resposnive website 2 hour 6x : https://www.youtube.com/watch?v=p0bGHP-PXD4&t=512s
+- good textarea expand codepen: https://codepen.io/vsync/pen/frudD
+- watch create live editor, youtube: https://www.youtube.com/watch?v=jEeYPFFmMcs&t=493s -  jsfiddle exmaple orignla: https://jsfiddle.net/k49xta0n/; MINE mannually : https://codepen.io/mangadrawing123/pen/ExXpdeB --or code pen, let them be able to write with tab first! -codepne live text editor html textarea (ORINGAONGL): https://codepen.io/MKAbuMattar/pen/QWKOZqd?editors=0010  (MINE mine MESSING AROUND) : https://codepen.io/mangadrawing123/pen/xxrJLya -mine orinabal code messing: https://codepen.io/mangadrawing123/pen/MWoBvXv?editors=1000 - wrap text editor html default?! - editor setting option wrap text? (solved stackvoer flwo: https://stackoverflow.com/questions/38208984/how-to-disable-indentation-of-subsequent-lines-in-ace-editor-when-line-wrapping ) - ( auto indente tab setting:  ) 
+- ( enable auto-ident? mine codepen tow ork on : https://codepen.io/mangadrawing123/pen/rNwrQza?editors=1010) - (other code fr reddit: https://codepen.io/mangadrawing123/pen/mdwjNvN?editors=0010 mine ) (reddit oringial color: https://codepen.io/eisolo/pen/JjJBmLg )-  live editor wrap text p tag and /p closing tag as well https://codepen.io/JEE42/pen/ZredYq?editors=1010 - success live mine mine live editor : https://codepen.io/mangadrawing123/pen/rNwrQza?editors=1010
+- fork live editor contineu to repalce the 2 tabs or start at div container adn rectentg : https://codepen.io/mangadrawing123/pen/qBjMWmG?editors=1010   -
+- google docs two space for balllon and panel 1, 2, 3, : https://docs.google.com/document/d/1NsLrFeRPkhft5h3YAJd50pv8WfViOi7Oho2Of6m9qx8/edit --
+- ctrl enter for enter button so taht t will restart no live eidotr: https://codepen.io/Rio517/pen/HFnGf?editors=1010
+- enable tab in textarea: https://jsfiddle.net/2wAzx/13/ (oringal)) -- (mine ) https://codepen.io/mangadrawing123/pen/rNwZwME?editors=0100
+- really nee the panel thingy to work so that we can adjust left and rigth , repalce panel with </div><div class=container--right> right, focus ,left , differnt class. (new fork) https://codepen.io/mangadrawing123/pen/jOwvLjV?editors=0100
+- panel-right for div panel, learn how to use repalce group , one instance only: one panel to the next -- mine code pen : https://codepen.io/mangadrawing123/pen/jOwvLjV?editors=0100 - regex match character name div: https://regexr.com/667ut -
+- match all line not CAP action line : https://regexr.com/667vi (not done) : https://regexr.com/667vi -- reddit regex - non cap: 
+- wrap all PANEL until next PANEL ENTIRE: https://regexr.com/668at - google: https://forum.uipath.com/t/get-multiple-lines-between-two-strings-using-regex/192710 - (work) https://regexr.com/668k6 -
+- able to use regex wrap panel: https://regexr.com/668k6 -- need to use regex for all name and balloon as well: https://codepen.io/mangadrawing123/pen/OJgoqeo?editors=0010 - perfect reddit regex: https://regex101.com/r/ZDTjqz/2/ (orignal redidt) : https://www.reddit.com/r/regex/comments/pug61i/how_to_match_until_the_next_panel_occurence_regex/he38s4q/?context=8&depth=9 -
+- grid play game: 
+- add differnt class for panel: right focus left... - https://codepen.io/mangadrawing123/pen/oNwavgQ?editors=0110 -- kinda wraping it: https://codepen.io/mangadrawing123/pen/oNwavgQ?editors=1101 -- using regex:https://regex101.com/r/zEc24U/1
+- good textarea color and panel: https://codepen.io/vsync/pen/frudD?editors=1100
+- github push, fit half of screen not scrolling fit on screen 
+- enable tab key agaoini: https://jsfiddle.net/2wAzx/13/ --
+- ask reddit around align nth child- lefnat and right balloon : https://codepen.io/mangadrawing123/pen/MWoPVWB?editors=1100 - reddit jsfiddle ballong nth child odd flex self end: https://jsfiddle.net/tzxLmy8f/ -- 
+- change name to NAME uppercase
+- align right panel baloon didn't align right: check reddit: https://www.reddit.com/r/css/comments/pv34kc/ -how_can_align_these_balloon_left_and_right/he7e9aa/?context=3 : codepne for shairng: https://codepen.io/mangadrawing123/pen/NWgOMwV?editors=1100 -- worked reddit: https://www.reddit.com/r/css/comments/pv34kc/how_can_align_these_balloon_left_and_right/ margin-left: auto;
+- panel min-height : 500px , then auto , solution: https://codepen.io/Terizo/pen/MWYeMqX?editors=1100 : minheigh: 100px , height: auto
+- delete after NAME (whisper) to put insdie the balloon type div regex :  - ask reddit: https://www.reddit.com/r/regex/comments/pv5o5e/how_do_i_wrap_multiple_dialog_balloons_with_div/ -- regex101: https://regex101.com/r/VE6E20/1 --
+- sticky GRID cssonee hte side find on codepen , jsifdle: https://codepen.io/mangadrawing123/pen/xxryBwN (not owkring stciky) - codpen: https://codepen.io/joeaugie/pen/GvVgKL?editors=1100 --
+- darkcolor BLUE accent color  mode pallete like clip studiop apint: chnage ot dark black
+- textare fit inside grid codepen center:
+- speraet hosiptal with house skp file - 
+- uplaod to sketchup 3d ware house 2 file hospti and dian house
+- sketchup delet all extension all at once
+- set paypal for free and try to get $1
+- overlay: https://codepen.io/mangadrawing123/pen/OJjVzbj
+- circle upper and lower, overlay, yotube: https://www.youtube.com/watch?v=HFG3BKOqOlE -- grid order : 
+- github merge main gbnahc
+- main change order middle panel
+- auto surround css balloon, avoid center, start from center css div, auto fit to panel 1000x500, panel auto expand. https://codepen.io/mangadrawing123/pen/OJjVzPp?editors=1100
+- make balloon closer: overlap balloon: condense, zigzag - ballon overalptop fcc: https://www.freecodecamp.org/news/z-axis-html-css-z-index-layout-adventures-2419cefdc2ed/ --reddit asl : https://www.reddit.com/r/css/comments/q7u286/is_it_possible_to_have_the_same_class_overlap/
+- change font cogle comic 
+- random width action panel css: jsfiddle: http://jsfiddle.net/qaF24/5/ -- jquearey randome widh t ,height --- radnomde within rnage javascrip: https://www.codegrepper.com/code-examples/javascript/javascript+get+random+number+in+range --random choose from range for panel
+- ballon marign-top -10px https://codepen.io/mangadrawing123/pen/XWambqj?editors=1100
+- each PANEL at line enter : reddit: regex101: https://regex101.com/r/rrb56y/1 - reddit: https://www.reddit.com/r/regex/comments/q8fd3z/how_do_i_advoid_the_extra_group_when_using/ - solved:  https://regex101.com/r/fle0T4/1  
+- turn (action) to have action div or none balloon middle css. - or turn it to mini panel ontop overlay - action mini : codepen worked: https://codepen.io/mangadrawing123/pen/OJjyrOp?editors=1100
+- regex at start of line for panel - loop panel and action: https://regex101.com/r/knSRpd/3 -- redit: https://www.reddit.com/r/regex/comments/q8igd4/how_can_i_group_the_second_green_group_end_of/
+- combine balloon border div ; codpen: https://codepen.io/pen/?editors=1100 -- fcc: https://www.freecodecamp.org/news/z-axis-html-css-z-index-layout-adventures-2419cefdc2ed/ -- reedit: https://www.reddit.com/r/css/comments/q8ld7q/how_to_have_my_circles_to_share_the_same_border/
+- replace all /n/n or above {2,} with one\n
+- inehrrit whisper : redit: https://www.reddit.com/r/css/comments/q8mete/how_to_make_the_class_balloon_inherit_from_the/ -- codpen: https://codepen.io/mangadrawing123/pen/OJjyrOp?editors=1100 --- jsfiddle: https://jsfiddle.net/2yhtvwf4/
+- wavy balloon outline - reddiet: https://www.reddit.com/user/mangadrawing123/posts -- codepne : https://codepen.io/mangadrawing123/pen/OJjyrOp?editors=1100 -- gogole image : https://www.google.com/search?q=css+border+type&tbm=isch&ved=2ahUKEwiI9uTJ08zzAhVIbJQKHcZKBWAQ2-cCegQIABAA&oq=css+border+type&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BwgjEO8DECc6BggAEAgQHjoECAAQGDoGCAAQChAYUOczWJQ4YNg5aABwAHgAgAGyAogB9QqSAQcwLjIuMy4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=ppNpYYiLJsjY0QTGlZWABg&bih=729&biw=1423&rlz=1C1CHBF_enVN956VN956#imgrc=wR_5Rd3KLuXKdM  
+- css shape tou side swebsite: https://www.freecodecamp.org/news/mastering-css-series-shape-outside-44d626270b25/ : stackvoer flow cutconrer: https://stackoverflow.com/questions/7324722/cut-corners-using-css : coepne cutconer: https://codepen.io/mangadrawing123/pen/KKvVWOx?editors=1100 -- codpen work well : https://codepen.io/mangadrawing123/pen/GRvomRm?editors=1100  -- stackvoer lfow work well: https://stackoverflow.com/questions/43366827/border-radius-without-rounding  -- clippath-genrator : https://bennettfeely.com/clippy/
+- box-shadow for clip-path:  -- shaodw gneraetor: https://cssgenerator.org/box-shadow-css-generator.html -- nend ot find filter drop shadow -- mdn dropshaodw filter: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow() - follow reddit instruction: regex duplicate balloon bg with whipser  -- codepne: https://codepen.io/mangadrawing123/pen/mdMVwWa?editors=1100 --redit: https://www.reddit.com/r/css/comments/q95t80/how_to_have_filter_dropshadow_of_container/ -- codepn dive double[ME]: https://codepen.io/mangadrawing123/pen/vYJLZZV?editors=1100
+- double hte balloon regex group $1 for .balloon .bg and using reddit solution .cotnainer 
+- ctrl + enter in case:
+- extreme (yell) clip-path
+- scared balloon :codepn [ME] : https://codepen.io/mangadrawing123/pen/mdMVwWa?editors=0100 -- 
+- clippy path website gnerator : https://bennettfeely.com/clippy/
+- weird padding balloon 
+- balloon nth child doesn't work
+- name outline white
+-rem em font
+- change font cc wildword for dialog - reddit ; https://www.reddit.com/r/css/comments/q9oo54/how_to_add_and_use_local_fontfamily_not_sure_how/ -- stackvoeflwo: https://stackoverflow.com/questions/38086083/to-use-local-font-in-html-using-font-face - imgur: https://imgur.com/gallery/FGPhYAR -- google font imagur : https://imgur.com/gallery/Z20r0sW - tranfonrter : font genrator : font website : https://transfonter.org/ -- ormate trutetyp :https://imgur.com/gallery/DMVNUlt
+- backflash start end or BLACK START END ; regex: https://regex101.com/r/W2sFPR/1 - ignore : https://stackoverflow.com/questions/2078915/a-regular-expression-to-exclude-a-word-string - ignore any line container backflash keyword -- regex erddit: https://regex101.com/r/OMmGNl/8 -- imgur : https://imgur.com/gallery/PmJOMwb solve -  regex101 slve: https://regex101.com/r/JaZlf1/1 -- reddit solve: https://www.reddit.com/r/regex/comments/q9rvat/how_do_i_made_it_ignore_the_first_div_that_start/ -- reddit backfalsh: https://www.reddit.com/r/css/comments/q9sas2/how_do_i_made_the_gradient_backflash_appear_longer/ -- https://cssgradient.io/ - codepn backflash : https://codepen.io/mangadrawing123/pen/abydEBQ?editors=1100 - solve codepen: https://codepen.io/mangadrawing123/pen/abydEBQ?editors=1100
+- ligh, blue layout : reddit: https://www.reddit.com/r/css/comments/q9u28s/why_my_button_in_buttons_div_is_not_spacebetween/
+- copyEach not copy button: https://codepen.io/mangadrawing123/pen/VwzaLEb?editors=0110 -- oringal https://www.reddit.com/r/learnjavascript/comments/pwzjwu/how_to_have_a_copy_button_for_each_textarea/ -- https://stackoverflow.com/questions/51966085/how-to-copy-contents-of-a-button-to-clipboard-js/51966222 -- FAIL1 https://codepen.io/mangadrawing123/pen/PoKNPwd?editors=1111 -- button display allow enter \n? -- https://www.reddit.com/r/learnjavascript/comments/qa53wl/is_it_possible_to_copy_each_text_without_copy/ new redidt - unsolved textarea https://jsfiddle.net/mangadrawing123/7cmzfhk6/14/ -- https://www.bestcssbuttongenerator.com/#/0 -js success balloon. -- reddit solved : https://www.reddit.com/r/learnjavascript/comments/qa53wl/is_it_possible_to_copy_each_text_without_copy/
+- html2canvas with drp-sahdow : https://jsfiddle.net/mangadrawing123/o52bzfr4/1/ -- 
+- result lcip path balloon to two container clip path on top of each other. -- one black one white backgroudn, white backgournd on top, black bg container bottom z-index :-1, but it had to be relative to each other?exact same palce - css challenge -- html2canvas save clippath didn't recognized -- https://jsfiddle.net/mangadrawing123/xfbavo53/6/ -- dom to image  https://github.com/tsayen/dom-to-image - dom to image egithub https://github.com/tsayen/dom-to-image -- change left and div webtoon div left with shadow - weird balck top? -  https://www.reddit.com/r/learnjavascript/comments/q9vdi7/how_to_use_dataurl_to_save_div_image_with/
+- switch to balloon button each. - div balloon on click copy content on webtoon page work (no need break yet) - https://www.reddit.com/r/learnjavascript/comments/qa53wl/is_it_possible_to_copy_each_text_without_copy/  
+- onclick rotate to switch to balloon idamong text -- https://www.bestcssbuttongenerator.com/ -- full jsfiddle : https://jsfiddle.net/mangadrawing123/y0j27g1t/
+- ctrl enter or enter before download - queryselctor all remove selected classlist https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll -- reddit : 
+- balloon add br https://www.reddit.com/r/learnjavascript/comments/qatt0g/how_to_count_length_of_sentence_that_doesnt_start/ - https://jsfiddle.net/mangadrawing123/xn1sk9rf/   solvevd: https://jsfiddle.net/mangadrawing123/7jqngp1w/1/ 
+- SKEW DOWN: https://www.reddit.com/r/css/comments/qb369q/is_it_possible_to_skew_down_link_css_matrix/ - https://angrytools.com/css-generator/transform/ - regex skew down: https://regex101.com/r/Mx8oNr/2 (sucess)-  
+- csp tips : google docs all the panel and balloon ; gogold slide presentiatno: https://docs.google.com/presentation/d/1sZ7WDLTekUaAZbjSk8SD-CdBMyd_lFoV90Ky8KIvIUU/edit?usp=sharing  -- https://tips.clip-studio.com/en-us/articles/5538  -
+- ignore first Letter captillie d: https://www.reddit.com/r/regex/comments/qb5opk/im_be_able_to_grap_all_line_start_with/ -https://regex101.com/r/OcpW3k/1 - https://regex101.com/r/fdxGrO/1 [SOLVED]
+- fix the original webpage;
+- hide textarea button, widht change textaera , font size shrin as well - main hide left.  https://www.figma.com/file/9PDOVevBuwlfEliybCYAuw/diamond-webtoon-layout?node-id=0%3A1  - textarea adjust table width? user? - not responsive :https://codepen.io/mangadrawing123/pen/rNzLLMV -- repsonsive: https://codepen.io/laivanduc/pen/yNRwJR -- https://jsfiddle.net/mangadrawing123/9dkc52nu/ [unsolved] --https://www.reddit.com/r/learnjavascript/comments/qb9iyb/how_to_can_i_make_the_comic_page_appear_in_the/ - toolge lsit gird : https://codepen.io/brbcoding-the-selector/pen/RwNjXaK?editors=1000 : 2nd: https://codepen.io/cstuncsik/pen/YXzKOj?editors=1000 - [solved] https://jsfiddle.net/mangadrawing123/e1yLg9mc/
+- water mark layout , bg wm reepat: https://codepen.io/JosephShenton/pen/JXzmrO?editors=1010 - [me] watermark multiple: https://codepen.io/mangadrawing123/pen/porbMXr?editors=1010 - bg repeat: https://codepen.io/mangadrawing123/pen/GRvjKEq?editors=0100 -- https://codepen.io/mangadrawing123/pen/GRvjKEq?editors=0100
+- sharing a screenshot html2canvas on hte whole screen to share tow tweiieter -- https://www.reddit.com/r/webdev/comments/qbpwq3/is_it_possible_to_have_the_website_take_a/ -- https://www.youtube.com/watch?v=YcEshVZNA5E  --begining of hte website when first log in./ or after download. (after donwload!) . - -fbbutton https://developers.facebook.com/docs/plugins/share-button/ -- facebook dlevoepeer https://developers.facebook.com/docs/plugins/share-button/  -- add logo diamond text layout, do you want to remove the watermark? sharing it social media.  -codepne reddit: https://codepen.io/iahello/pen/OdjOmz  - youtube after able to display video.  -- codepne sharing current link https://codepen.io/netsi1964/pen/EaZdjO -- sharing current screenshot website to facebook -- display the trademark after clikc donwlaod to review what will be downlaod then, next to it is hte button of "want to remove trademark logo" , sharing the website to your social media. thne after done will be remove trademark. -- don't have the link to  -- sahre facebook : https://codepen.io/josfervi/pen/mWyrJy -- dttatoURL sharing image link. https://stackoverflow.com/questions/5957382/how-to-save-a-html5-canvas-todataurl-string-as-a-png-on-a-php-backend  -- share facebook warp image https image link: https://stackoverflow.com/questions/5957382/how-to-save-a-html5-canvas-todataurl-string-as-a-png-on-a-php-backend  - share screenshot on phone? andrios? https://stackoverflow.com/questions/30196965/how-to-take-a-screenshot-of-a-current-activity-and-then-share-it  - simple sharing website first! reddit ,facebook instagram? not link allow, youtube? twitter.  -- bottom textarea share link. -- sharing local image to instagram. allowalbe. local iamge and link to evyer other website tiwtter facebook , reddit. --easy shareing button orgainztion order: https://vi.wordpress.org/plugins/simple-social-buttons/  -  -- alternative local image of the wbesite, many differnt image  - one button link facebook share website my link. just one first. posisble - force?! post online? - worked codpen: https://codepen.io/iahello/pen/OdjOmz?editors=1100 -- popup box: https://codepen.io/TheYuwana/pen/jyqewg  -- clikc outside of box to return to mnormal
+- regex break PANEL  with img https  https://www.reddit.com/r/regex/comments/qcq8xq/im_so_close_to_it_what_i_did_wrong_regex101_in_cmt/  so close PNAEL only ignore http.  https://www.reddit.com/r/regex/comments/qcu8ki/i_want_to_seperate_text_and_httpjpg_to_2_groups/  - bg image codpe https://codepen.io/roary_tubbs/pen/reWZGa 0 close https://stackoverflow.com/questions/51581441/detect-image-url-and-wrap-in-img-tags
+- replace before https at enter. remove it's first? it one line?
+- img uplaod auto fit width size , no fram border need? https://www.reddit.com/r/css/comments/qd7qu8/why_the_img_objectfit_cover_didnt_cover_the/  - https://css-tricks.com/positioning-overlay-content-with-css-grid/
+- whtielein img
+- donado node.width ablaloon change size wiht it. https://www.reddit.com/r/webdev/comments/qdgy2z/ - https://www.reddit.com/r/css/comments/qdhflq/so_i_want_to_download_the_image_wiht_higher/im_able_to_download_the_image_width_2000px_but/
+- problem come when downoad imamge 
+- dispaly wait for second when downlaod image.
+- addd root -var-webtoon wdiht: to 1000px;
+- dispaly none name when donwload iTmage
+- git globale e open all im_be_able_to_grap_all_line_start_with all lais https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor
+- slainted https://www.reddit.com/r/css/comments/qfug61/why_my_clip_path_have_this_extra_space_on_top_it/
+- add new panel type clip-path.
+- regex grab reaplce episode
+- button textare ainsrcat text font size : https://codepen.io/robgolbeck/pen/yePRwa
+- tip change  - old veresion website - q and a - csp link old version website tips link and video
+- DONWLAOD no image dispaly nened - just tet INLCUDE name checkbox, action text checkbox (default unchekced) balloon auto customized keep balloon and text , or panel. let hte user decide . just add text box with name  . tehy can play aorund . buttons below downlaod button "remove <br> checkbox name , action-text . downlado option side turn off action or name text before downlaod. allow size (800px , 1000px , 2000px width) - https://codepen.io/1jnole/pen/XKGdPG?editors=1100 - checkbox gneroator : https://doodlenerd.com/html-control/css-checkbox-generator
+- csp tip hwoto 
+- csp tips video how to add image http link ibb vidoe tutorial
+- wrap PANEL and action sepreate , -> regex action case where there is no aciton-text, ignore and add image only
+- turn website to desktop softawre
+- autolcik c enter button when respreofe https://www.codegrepper.com/code-examples/javascript/autoclick+button+if+refresh+page+html
+- web server chrome application serice  - now save textarea on the go.
+- just clip path all of it.
+- textarea autosave : https://www.genuitec.com/forums/topic/autosave-recall-text-box-with-local-storage/ - https://stackoverflow.com/questions/42963091/how-to-save-the-value-of-textarea-to-localstorage-then-display-it-in-the-same-te
+- overlap balloon type grid coepn T
+- balloon tail first child last and second child first!
+- balloon thought bubble? clip pth three?
+- cheatshehtst enw tagaraelstee tab link 
+- downlaod , Imfinenow, Kehard - Girl Can Get Sad  - 
+- differnt optiton for text font comic 
+- csp link webtoon image setting
+- replace 4 \s to one tab, 8 tab for 2 \t
+-  dekstop pracitce small react .
+- checkbox unable action text and name regex two option
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- 15 pages outlien animatino- 
+- anime ace font elble use on webiste onlie
+
+
+- donwlaod yutube  yaeow - Behind the Clouds 
+- desktop app save textarea at txt in local folder , and able to open local txt folder.
+- whisper tail f up
+- txt file comic scirpt test temapltet insert to textarea.
+- store firebase text file liek gogole docs , users sign in
+- difert font failty or ehte wbestoon iamge, if pssobilte have support for hte diffenrt langauge textaera as welewl
+- switch div main with working with balloon only or dscirpt to dilaog or dialgo-to-dialog only
+- csp is it pososble to chance frmae cnavas size animation ?
+
+- ballonon boxshaodw: https://codepen.io/alva romontoro/pen/zYqzgoy?editors=1100
+
+- regex grab page number - put to 128000.0.00 - and also display with action text as well for easy locate - seperate action text and number image. ot display for easy location.can turn later if needed
+- balloon 12345 order postition? similar with image? wont' because it the balloon and naem
+- learn img grid object-fit: cover work. and how to move image around. iamge fit height?
+- no shaodw two side?!
+- svg balloon at the middle
+- checkbox donwlaod img and download text file as well.
+- SKEW shadow not right or left dor shaowr
+- clipstuidpaint long short pages seperate.
+
+
+
+
+
+- turn wbeist eht to dkesotp software to link csp img aboslute path
+- or made a version upload filel for wbeiset veersion to link local images . absolute path folder iamge to link image easy.
+
+- blalonjs regex specicase case comment last image dpaslty eone iage wohit
+- choose file and idspalyte codepen : https://codepen.io/maqnus/pen/oedWmq
+- csp tips balllon vidoe tuotiral
+- PANEL CLOSE if left and right, the thingbelow left or right is no padding top : 0 hte first is paddingbottom0
+- sky transtion iamge 3 paenl clip path 3 breka side or else.
+- prevent restart page copied text before restarted, save text file
+- test local mg src absolute path
+- differnt language font size, france , korean , vietnamese,.... option
+- option to see name and action-text displya and none display.
+- why I didn't see the whisper ballloon? of one accasion
+- warp episode in diffent text style and title too, no needneed action - or no need text case. PANEL in general
+- link image locally.
+- fake instagrma or phoen caht.pone facke 3de and hpone face for comic.
+- if not have https then add div container-default with border. else return result. so that I can remove text normlally once donwload. https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg
+- donwlaod setting button ; check by default turn off name and action text
+- panel clip apth border drop shaow or scale before
+- number 1 234567 at the beginning to link to difffent image? in csp?
+- backgroudn image: outline intersting : https://codepen.io/PointC/pen/KRWgOK
+- csp tips add black/dark balloon?
+- red green filter easier text and backgroudn;
+- twitter share only tag clip stuid paitn.
+- add paper text layout multpel yor overlay, http jpg link, then overlay for overlay multiple for overlay.
+
+- ifrom google suggesiton link on website. 
+- downlaod seeprate layers  PANEL, baloon , text... 
+- sgugesting feature other display what other users input as well, so they can all vote on.
+- four panel comic quick adding. verital and f in one page.
+- csp docuet contain dark includ googld docs cheatsheet
+- add blue for panel
+- dsipaly buttong left right arrow to change hte ytpe of PANEL, and then put the text type to hte action panel back. 
+- add filter on the go  
+- flip iamge
+- option panel remove name when display in webtoon.- option panle rmeove name checkbox. aloow user to change font size of balloon.
+- git auto create brnahc and set-upstream one line? git?
+- layer phont mobile on top
+- canvas optiono . auto update http imge link whenver draw, but one link only
+-downlado abunk of layer difffernt layter graidnet apnel ballo text image.
+
+
+- text overlay texture. backgorund repeat. img repeat?
+- more deatilsi ntruction link to cip studio patin. below textarea main page.
+- removev watermark when click on one of hte facebook, twitter button - guilty
+- ask od you wnat to save text file ,when click download image?
+- autoamticla calculate the 50vh and turn it to px to apply to webtoon grid layout grid width, then calculate the font sisze accordingly
+- css random add class list in the array? before doing anything then? if the line start didn't ahve regez A-Z/b word bound then add class. if it alreayd had it then don't add random css class.
+- balloon stick together if they are in the same line.
+- seperate page layer panel , balloon balloon ,balloon text.... gradient ... just make other color trasnoframtnet so evyerthing stya in once palce
+- add overelay mlutily for night, puruple multiply or blue.
+- regex END boundary at /div
+-  insert html: img or png with bakcgournd white. https://regex101.com/r/GzN4D6/1 -- add local image in post facebook , reddit.  (image local had website ontop.)  
+- ctrl reset , when click reste auto copied text ot clipboard , alert and save textfile local download. add eventlistener and click restart on chrome.
+- min main width textarea with vw is half page when copy and paste balloon..
+- save textaer locally when restsettat: https://www.reddit.com/r/webdev/comments/qcjp6u/how_to_save_the_textarea_input_locally_so_that_if/ - https://codepen.io/mmousawy/pen/LedZPa?editors=1010
+- do sepeate share button view grid seperately! -- autosave didn't work : https://gist.github.com/gcmurphy/3651776
+- reddit faceboko image loca post instead , which image that include the website link on top. Add #hashtag? 
+- put twitter button on top firstiwht the hastag - image iwth wbesite link ontop image with ahsah tag
+- maek sure fb post before rmove watermark
+- youtube videot tutoirla link how to use. csp tips link. what ot howto write it properyt
+- old vresion click linkn running copy texarea and paste to textarea input. copied text in clip board
+- autosave eveyrtime there is a change - no need asave text button 
+- white layter ctin apnel on top like a border. backgroudn transpaen 
+- older versiotn button same page. same textaerae , noe text with auto height fit.text andbutton
+- remove linkin, twiter uptop hashtag image iwth llink website
+- make sure user post social media before turn off watermark - https://www.reddit.com/r/learnjavascript/comments/qby5ja/how_to_make_sure_users_post_the_social_media/ -- 
+- make sure reddit first, in line and commuinty is r/webtoon not personal.
+- first child nameandballoon always have the balloon tail add the end, the second one have tail uptop point to panel
+- make class name and it's drop-sahdow transparent when downlaod.
+- manga page later manga layout
+- link to one srcfile: https://www.reddit.com/r/learnjavascript/comments/qbvsta/i_want_to_link_and_use_all_js_files_in_one_folder/ -
+- website link csp tips new post , just video and link to orignal csp tips.
+- codepip nice layout foirrgy : https://codepip.com/
+- user login to current textare work file. alos log in if alreayd sharing to social media. after force to share it once. But also display eveyr time . shasring it ot soaical media.
+- save vidoe? to share to youtbe faceebok or social media?
+- side bar button position sticky left nerufophrosim
+- resizealbe textarea or main
+unsplash image
+https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80
+- TITLE ; EPISDOE: panel ; 
+-TRNASITION : 3 PANEL decrease in side down or 3 panel side view.
+- button morphe or neuphormisn
+- blur ballon moving balloon? webpage overlay
+- balloon hinh anh downlaod? ballon shape imagee png with shape?
+
+- CENTER LONG: CENTER SMALL
+- think though cicrlce balloon cddpen beofre and after circl :
+- grid gneraotr : https://grid.layoutit.com/
+- save text .txt in at Desktop directory 
+- copy button icon , downlaod icon, enter icon. 
+- yell differnt font size and roatet or transform.
+- tranform action panell to appear larger than orignal 
+- transfonter - differnt panel? try out: reddit panel saved. webtoons
+- donalod image without hte action word option color: none/strasnpte action and name;
+- auto save text to local desktop after downlaod image .txt file.
+- figma phone design simple - emssgaer : 
+- corner main blue radiue border
+- js break balloon and read to the script with tab. add <br> not \n -- reddit: https://www.reddit.com/r/learnjavascript/comments/qan77d/how_can_i_copy_the_text_that_are_breaklike_in_the/      
+- remove all selected class when click donwlaod 
+- ballon backwhite (black) backgorund: black, color hwite)
+- align-item : space between buttons
+- change font size larger for al : 
+- donwlaod image right away display? dataURL.
+- name donwlaod image file differntely when downloand , so don't overlapping save
+- rotate webtoon to ballon break like this: https://www.bestcssbuttongenerator.com/#/0 -js solved button
+- donaod iamge shotcut ctrl D
+- csp tips - new video tips at top
+-   change js from \n to <br> - using regex , discard teh prevsou function - https://jsfiddle.net/mangadrawing123/y0j27g1t/30/
+- ahdow balllon didn't capture hwen downalod - https://www.reddit.com/r/learnjavascript/comments/q9vdi7/how_to_use_dataurl_to_save_div_image_with/ - dataURL - https://imgur.com/gallery/Gvf0VKP -- https://stackoverflow.com/questions/69603114/how-to-use-dataurl-to-save-div-image-with-drop-shadow-outline-codepen-link-in
+- change font size larger like zoomin 200%
+- folder ctrl e display vidoe latest on top
+- auto reformat html code invs code like codpen io
+- good filter function: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function
+- skew css panel -- https://www.educba.com/css-matrix/ --https://codepen.io/mangadrawing123/pen/WNErrrp -- youtube https://www.youtube.com/watch?v=hso-nm9cWmM  - good diamodn shape : https://codemyui.com/jquery-button-hover-click-animation/ -- - redit : https://www.reddit.com/r/css/comments/q92p95/is_it_possible_to_have_the_diamond_shape_border/ -- codepn : https://codepen.io/mangadrawing123/pen/ExvPWLM?editors=1100 -- good css shape triangle : https://css-tricks.com/the-shapes-of-css/  -- cutcorner: https://www.oreilly.com/library/view/css-secrets/9781449372736/ch04.html
+- balloon black bg, white color font for Gahriel(emphasis) (bold)
+- good ballng sahpe: https://www.google.com/url?sa=i&url=https%3A%2F%2Ffellowtuts.com%2Fhtml-css%2Fcss-shapes-diamond-and-star%2F&psig=AOvVaw1X5EyJg7xh_wQYLo-czYdN&ust=1634435443694000&source=images&cd=vfe&ved=2ahUKEwjq98DR6M3zAhUH4ZQKHcoADd0Qr4kDegUIARC_AQ
+- yell balloon angle rectnagle like pyramid
+- save all shortcut clip studio to mangadrawing123 google drive
+- something wrong with 3 enter still there!
+- background prinitng ghariel house
+- shadow for all?!
+- soudn effect: https://googlecreativelab.github.io/coder-projects/projects/comic_creator/
+- diana (yell)  differnet regex : add to name and BAlloon, then inherrit only when it's class balloon. codepne is it possible?
+- yell balloon css ,wavy
+- mini action one or 2 tab \t{1,2}
+- radom panel array
+- rergex end of parargraph javascript not ?!\n
+- *SOUND noise skew
+- EPISODE : number display -12- ; TITLE : pino code (captialized-)
+- 3 long pages in one day
+- balloon tail alwyas poitn toward panel action
+- reddit complaint aisan, tired(must) can't avoid rant --
+
+-
+- mini grab look aorund for next regex tab()
+- rnadom width js + random position grid?
+- all thing must have panel solid black, includ just ballon only
+- overlay webtoon page white mask clip
+- 1 , 2 , 3 for three panel in one page - automate (desire) --- steps :
+- auto break long balloon at . dot
+- calculate sentence in balloon ot ift javascript
+- afte last child balloon rectangel : https://codingislove.com/css-speech-bubbles/
+- prinout iamge div side? dataUR div side?: downlaod icon auto fit on the efirst row 
+- blue backgorund layout website
+- BLACK FLASH , black gradient
+- maybe button in hte webtoon page as well? balloon button click but using the js cutting at a result, then change color
+- balloon thourhg - SQUARE
+- LEFT + RIGHT panel same PAGE
+
+- text area differnt scroll bar black near: https://codepen.io/alexander-kotov-dx/pen/MZBqjR -- ask reddit css: -- codepen: https://codepen.io/mangadrawing123/pen/ExXdJyK -- reddit: https://www.reddit.com/r/css/comments/pvfocc/why_i_cant_use_the_webkitscrollbar_for_my/ --
+- 19:6 vw for the the div side: 
+- enalbe live editor vscode onthe right side, extension: 
+- padding top and bottom of page for extra webtoon thing
+- need to do some grid practice, youtbe code along 1 hour: 
+- enter button on the middle?
+- darkmode:?
+- NEXT PROJECT: timer like iphone and youtube on teh side
+- aling all panel in center? 
+- link two page diamond tex and diamodn text layout. 
+- good enter button: https://codepen.io/ritchiejacobs/pen/qEJjBM?editors=1100 button 3 -- 
+- after dataurl image done , post on clip studio reddit
+- name action (what inside this is under the will be like name but not capitalize))  , so regex two tab with ( at beginngin
+- fixed height screen phone and let hte textarea always appear on the left side: 
+- cheatsheet how panel work, Image below textarea.
+- f***, text area didn't allow Ctrl+Z
+- grab balloon both character name adn dialog regex /t/t until /t/t or no ^/t : https://regex101.com/r/GGuNkT/1 --
+- multiple regex replace at once?
+- phone : https://codepen.io/phoenixzqy/pen/KNaGdp --
+- mannual wrap text : https://codepen.io/mangadrawing123/pen/oNwavgQ?editors=1000 --
+- not scrolling: https://codepen.io/mangadrawing123/pen/wveEqbK?editors=0100
+- replace advanced repalce one tab , two tab iwth differnet div.: 
+- new break at panel and balloon double space: https://codepen.io/mangadrawing123/pen/rNwZwME -- https://codepen.io/mangadrawing123/pen/rNwZwME?editors=1100 (success break peanel 1 , 2, 3)
+- constantly replace docs /t/t? https://codepen.io/mangadrawing123/pen/rNwZVRR - waitting 3 second before run the replace? -  simpliset live text editor wrap p with end p : https://codepen.io/mangadrawing123/pen/WNOgeeR?editors=0010 - 
+- ballon 2n child center, 3rd child is left.
+- my own text editor where when it no tap will be PANEL 1  captialized and when two tabs will be capitcalized too.
+- regex practice get line star twith character no specicla (). 
+- odin project - 
+- see how the live text to html code owrd (or Pug codepen owrkd with et just h2 and recginzed h2) (codepne orignal : https://codepen.io/JEE42/pen/ZredYq?editors=0010 )
+- help with ballon div adjustment and no position relative. (originla reddit: https://codepen.io/eisolo/pen/JjJBmLg)
+- ask reddit how they break the script and wrap with div
+- just let them right (normal ) at hte beginng of rectangle. 
+- put (charcter doing something ) to the bottom of balloon.
+- http://www.flexboxdefense.com/ copy this style for my app - hidden text input when copyand paste to clip studi oapitn copy eaachbutton hidden like hamburger menu 
+- with phone view for text editor:
+- character need to be bottom fit not halfway ; javascript: https://codepen.io/mangadrawing123/pen/yLXqLYd?editors=1100 ; 
+- differnt rectangle size: focus , one right, one left, full, none.
+- use dom list to seaprest child to 2 grid? to flow left and right? exmaple 1 (working codpen): https://codepen.io/mangadrawing123/pen/oNwyBqE - stair (zigzag?) css nth child? webtoon mind codepen: https://codepen.io/mangadrawing123/pen/KKqerPE?editors=0010 - MANNUALLY: https://codepen.io/mangadrawing123/pen/wvejLOv?editors=1000 - AJVASCRITP  : https://codepen.io/mangadrawing123/pen/KKqerPE?editors=1000
+ - random x for balloon? or radnome width for container ?
+- custome list order number list?
+- counting like number list? 1 for panel, a for character , i.. for dialog
+- detect whisper with differnt css style with border cross or so!
+- maybe adding the triblne poitner of talk as well
+- have the reactable text be relative to the rectangle on top appear first. before ballong and hcaracter 
+- differnet place for balloon random x position: 
+- exampel scroll snapchat, will be good for phone view when typing text editor: https://codepen.io/argyleink/pen/RwPWqKe , https://css-tricks.com/almanac/properties/s/scroll-behavior/
+- repalce normal start with single panel with differnet div panel half rectable left or right.
+- repalce none rectangle for no border rectangle
+- dispaly text on the one side of the gird rectangel
+- reaplce all enter \n at /div panel rectangle and put all the text inside first, thaen add padding for each panel.
+- character will just be a plain grey characteer non sexual orientaiton just the head.
+- live ide like on of the youtube text editor
+- rectangle text wrap avoid the balloon div to visible .
+- rectanble suggestion (panel type - angle character - / / moving panel)
+- paenl 1, 2, 3 number text editor
+- create own ide text html to webtoon rectangl
+- can it be clip to rectangle the character image?
+- one balloon + text auto fit (one) -- jsfiddle: 
+- text outside the rectangle below on left - half ocapacity
+-making rectangle image selction or canvas to drawing?
+--drawing won't be save - Save function -firebase  - so that they can draw!
+--images will allow them to write and save text to google docs and adjust the text layer? --> store and image for them to select.
+- break text and add rectangel :
+TEXT moving in the html - http://jsfiddle.net/willtonkin/24hs50vv/
+- cavnas that have fixed vikew screen with phoen layer on top.
+- svg canvas circle and rectangle that user can MOVE and change size??! thus alsoe be save as canvas?!
+- addiphone outline for better vision
+- need 3 layers to store text , ballons and rectangle (maybe text for rectangle )
+- -draw a rectang and put text in differnet size depend on the action scene
+- --if it is a scean will be fulll screen with INT/EXT captiacllied
+- ---Alos could do some graiden for transition
+- diffenrt in size
+- differnet type of rectnagle / \ or no-outline rectangle
+-FINAL :
+https://jsfiddle.net/mangadrawing123/206aLnqt/36/ - MINE hlaf half text and canvas
+***********************************************************
+2. dialogs to balloon
+- able to detct CHARACTER NAME
+- number of dialog palce near rectangle 
+- -number of dialog in order 1,2,3,4,
+- differnet type of dialog

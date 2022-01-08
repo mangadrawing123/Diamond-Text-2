@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/balloon.css">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="css/watermark.css">
+    <link rel="stylesheet" href="css/downloadCheckbox.css">
+    <link rel="preload" href="fonts/HLcomic1_normal.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/CCAstroCity.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/KomikaTextKaps.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CCWildWordsRoman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/AnimeAce.woff2" as="font" type="font/woff2" crossorigin>
+
+    
+    <!-- FONT TYPE -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wild+And+Crazy|Bangers|Comic+Neue|Acme|Chilanka|Coming+Soon|Neucha|Kalam|Patrick+Hand|AudioWide"> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <title>Diamond Webtoon Layout</title>
+</head>
+<body>
+    
+    <div class="lightbox share-buttons-container">
+        <div class="share-list">
+          <!-- TWITTER -->
+          <a class="tw-h" onclick="return tbs_click()"  target="_blank">
+            <img src="https://img.icons8.com/material-rounded/96/000000/twitter-squared.png">
+          </a>
+
+      <!-- FACEBOOK -->
+      <a class="fb-h" onclick="return fbs_click()" target="_blank">
+        <img src="https://img.icons8.com/material-rounded/96/000000/facebook-f.png">
+      </a>
+  
+  
+      <!-- LINKEDIN -->
+      <!-- <a class="li-h" onclick="return lbs_click()"  target="_blank">
+        <img src="https://img.icons8.com/material-rounded/96/000000/linkedin.png">
+      </a> -->
+  
+      <!-- REDDIT -->
+      <a class="re-h" onclick="return rbs_click()" target="_blank">
+        <img src="https://img.icons8.com/ios-glyphs/90/000000/reddit.png">
+      </a>
+  
+      <!-- PINTEREST -->
+      <a data-pin-do="buttonPin" data-pin-config="none" class="pi-h" onclick="return pbs_click()" target="_blank">
+        <img src="https://img.icons8.com/ios-glyphs/90/000000/pinterest.png">
+      </a>
+      <button class="close-btn">Close</button>
+    </div>
+  </div>
+    <div class="grid">
+        <div class="side main" class="active">
+            <div class="toggle-btn"></div>
+
+            <div class="textareaInput">
+              <div class="textcontrols">
+              <select name="ListMenuFonts" id="ListMenuFonts">
+                <option value="CC Wild Words">default-CC Wild Words</option>
+                <option value="CC Astro City">normal - CC Astro City</option>
+                <option value="Jack Armstrong BB">French - Jack Armstrong BB</option>
+                <option value="HLcomic1_normal">Vietnamese - HLcomic1_normal</option>
+                <option value="Anime Ace">Anime Ace 2 - Regular</option>
+                <option value="Anime Ace Bold">Anime Ace 2 - Bold</option>
+                <option value="Anime Ace Italic">Anime Ace 2 - Italic</option>
+                <option value="CC Jim Lee">narrate - CC Jim Lee</option>
+                <option value="Augie">handwirtten - Augie</option>
+                <option value="Zud Juice">emotion - Zud Juice</option>
+              </select>
+              <div>
+              <button role="button" id="decreaseText"><span>-</span></button>
+              <button role="button" id="increaseText"><span>+</span></button>
+              </div>
+            </div> 
+            <!-- textcontrols div end -->
+            <textarea name="" class="textInput" id="textInput" cols="1" rows="1">
+TITLE: Testing Webtoon Layout - img/img4.jpg
+EPISODE: 15 
+
+Ahhh, comme il fait beau. Enfin du soleil ! C’est bien agréable, vous ne trouvez pas  - img2\Timeline 10000.png
+		ghariel (whisper)
+	폴란드어 할 줄 몰라요.
+	Bonjour.
+	Xin chào!
+	Do you want to add new font?
+	I need help adding new font for different language!
+	Comment ça va ?	
+		diana (yell)
+	영어 할 줄 아세요?
+	Lời nói Tiếng Việt.
+	Something about him!
+	Saying something!
+
+
+FULL NO: Minh hỏi rằng mình có được đi ra biển- img2\Timeline 10001.png
+		Shin (scared)
+	Ça va très bien, merci. Et vous?
+		alis (phone)
+	hello!
+	it's me!
+	Et vous?
+	Nếu mà nó như thế này?
+
+
+
+SHORT: Shin look at Yoo while they both walk into the dancefloor - img2\Timeline 10003.png
+		Yoo (weird)
+	Ça va, merci.
+		Shin (inner)
+	Comment vous appelez-vous?
+
+
+FULL NO: Diana poiting the wrong doing 8- img2\Timeline 10002.png
+		dian (thought)
+	Je m'appelle Diana, et vous?
+		dian (cute)
+	Comment vous appelez-?
+	So cute?
+
+BACKFLASH START
+FULL LONG NO SKEW: Yoo can't lift her face up because she is can't contained her happiness- img2\Timeline 10003.png
+		Yoo (dark)
+	Je m'appelle Dominique.
+		yoo (dark)
+	Enchanté(e), Dominique.	
+
+FULL NO SKEW UP: Shin carefully held Yoo's hand to the dance floor. - img2\Timeline 10004.png
+		diana (handwritten)
+	Haha..
+	This is hand written type
+
+FULL LONGG NO SKEW: Shin carefully held Yoo's hand to the dance floor. - img2\Timeline 10004.png
+		Shin (square)
+	Et vous venez d'où, Dominique?
+		DIANA (roundsquare)
+	Je viens de France. Je suis français(e).
+
+
+FOCUS: YeognGi notice the two dancing together faraway - img2\Timeline 10005.png
+		alisa (rabbet)
+	...
+	This is rabbet balloon?
+		alisa (bevel)
+	Ah, vous êtes français(e). 
+
+Yeongi look away while the other two dancing and having fun, he don't feel good. - img2\Timeline 10006.png
+		YeongGi (skew)
+	Je viens des États-Unis.
+	This is skew
+		shi (awkward)
+	Je suis américain(e).
+	awkward?
+
+BACKFLASH END
+
+I love yoo - img2\Timeline 10007.png
+		alisa (diamond)
+	Ah, vous êtes américain(e).
+	another diamond 
+		alis (pentagon)
+	Vous venez d'où exactement ?
+	pentagon?
+
+
+FULL NO: dian look at alisa - img2\Timeline 10008.png
+		diana (rightpoint)
+	Ah, vous êtes professeur d'anglais ? 
+	so weird rightpoint?!
+		diana
+	Vous parlez anglais ?
+
+LONG FULL: dian look at alisa - img2\Timeline 10009.png
+		diana
+	Oui. Et vous parlez français ?
+		diana
+	Oui. Un petit peu.
+
+
+NONE: emtpy
+
+TITLE: nonsense - img/img4.jpg
+EPISODE: 15 end
+
+
+
+
+
+
+</textarea>
+
+<div class="instruction-link"><a href="https://docs.google.com/document/d/1oRFdTXfcPPsUMA76TO1fOLLClGGem4W7DCmLSgDB_BA/edit#" target="_blank">CheatSheet + Script Template</a></div>
+           </div> 
+           <!-- textareaInput div end -->
+<br>
+                <div class="buttons">
+                    <label for="checkbox" >
+                      Name and action turn on
+                      <input type="checkbox" name="removeName" class="nameActionRemoveCheckbox"/>
+                    </label>
+                    <button class="ctrlEnterBtn" onclick="button()">Ctrl+Enter</button>
+                    <button class="save-button"onclick="copyText()">Save Text</button>
+                    <button class="downloadOptionsBtn download-toggle">Download Webtoon</button>
+                    <button class="share">Share</button>
+                    <p> <span id="count">0</span><br> views <p>
+                    <a href="old-version.html" class="button old-version" style="color: white;">Old-version
+                        <!-- <p class="button old-version" href="old-version.html">Old Version</p> -->
+                    </a>     
+                </div>
+
+                <!-- DOWNLOAD option panel popup -->
+                <div class="download-option-panel">
+                  <div class="panel-overlay download-toggle"></div>
+                  <div class="panel-wrapper panel-transition">
+                    <!-- Checkbox -->
+                    <div class="control-group">
+                      <h1>Webtoon Page Settings:</h1>
+    <label class="control control-checkbox checkbox-name">
+        NAME
+            <input type="checkbox" checked="checked" />
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox checkbox-action">
+        Action Text
+            <input type="checkbox" checked="checked"/>
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox checkbox-balloon">
+      Balloon + Text
+      <input type="checkbox" checked="checked"/>
+      <div class="control_indicator"></div>
+    </label>
+    <!-- <label class="control control-checkbox checkbox-img">
+        Image
+            <input type="checkbox" checked="checked"/>
+        <div class="control_indicator"></div>
+    </label> -->
+    <label class="control control-checkbox checkbox-panel">
+        PANEL / image
+            <input type="checkbox" checked="checked"/>
+        <div class="control_indicator"></div>
+    </label>
+<label class="control control-checkbox checkbox-gradient">
+        Gradient BG
+            <input type="checkbox" checked="checked"/>
+        <div class="control_indicator"></div>
+    </label>
+    <label class="control control-checkbox checkbox-2000px">
+        2000px width (default 500px)
+            <input type="checkbox" />
+        <div class="control_indicator"></div>
+    </label>
+
+    <label class="control control-checkbox checkbox-transparent">
+        Transparent Image (.png)
+            <input type="checkbox" checked="checked"/>
+        <div class="control_indicator"></div>
+    </label>
+  </div>
+  <!-- checkbox div -->
+  <button class="downloadImageBtn" style="font-size: 1.5em; width: 100%;" onclick="downloadWebtoonImage()">Download Image </button>
+</div>
+                </div>
+        </div> <!--main-->
+        
+        <div class="webtoonImage watermark">
+        </div> <!--side display webtoon-->
+    </div><!--grid-->
+    
+    <!-- script apit view counts -->
+        <script> 
+            var countEl=document.getElementById("count");
+            updateVisitCount();
+            function updateVisitCount() {
+            fetch('https://api.countapi.xyz/update/alex/webpage/?amount=1')
+                .then(res => res.json())
+                .then(data => {countEl.innerHTML = data.value;});
+            }
+            </script>
+
+    <script>
+function loadScripts(){
+   var directory = 'src/';
+   var extension = '.js';
+   var files = ['balloon', 'share', 'localStorage','textareaFontsizeIncrease'];  
+   for (var file of files){ 
+       var path = directory + file + extension; 
+       var script = document.createElement("script");""
+       script.src = path;
+       document.body.appendChild(script);
+   } 
+ }        function loadScript (dir, file) {
+ var scr = document.createElement("script");
+ scr.src = dir + file;
+ document.body.appendChild(scr);
+ }
+ loadScripts()
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
